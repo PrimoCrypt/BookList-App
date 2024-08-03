@@ -7,7 +7,7 @@ const BookList = () => {
     console.log(book)
   }
   return (
-    <div className="flex flex-col items-center min-h-[100vh] gap-2 py-4 text-black bg-blue-500">
+    <div className="flex flex-col items-center min-h-[100vh] gap-2 py-4 text-black">
       <h1 className="mb-4 text-5xl font-extrabold text-white">Best Selling Books</h1>
       {
         bookData.map((book, index) =>{
