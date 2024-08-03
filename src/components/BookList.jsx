@@ -8,7 +8,7 @@ const BookList = () => {
   }
   return (
     <div className="flex flex-col items-center min-h-[100vh] gap-2 py-4 text-black">
-      <h1 className="mb-4 text-5xl font-extrabold text-white">Best Selling Books</h1>
+      <h1 className="mb-4 text-5xl font-extrabold text-white text-center">Best Selling Books</h1>
       {
         bookData.map((book, index) =>{
           return <Book key={book.id} myIndex={index} getBook={getBook} {...book} />
