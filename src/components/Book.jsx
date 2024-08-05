@@ -14,7 +14,7 @@ const Book = ({author, title, id, myIndex, getBook}) => {
       <p className="absolute top-0 left-0 self-start px-3 py-1 text-left text-white bg-black rounded-tl-lg rounded-br-3xl"># {number}</p>
       <h1 className="p-2 text-lg font-bold text-white bg-blue-600 ">{author}</h1>
       <p className="p-2 text-white bg-blue-600 rounded-b-lg">{title}</p>
-      <button className="bg-blue-600 rounded-lg shadow-lg active:scale-105 hover:bg-blue-800 active:shadow-md active:shadow-black shadow-black" onClick={()=>getBook(id)}>Click me</button>
+      <button className="bg-blue-600 text-white rounded-lg shadow-lg active:scale-105 hover:bg-blue-800 active:shadow-md active:shadow-black shadow-black" onClick={()=>getBook(id)}>Click me</button>
     </div>
   )
 }
